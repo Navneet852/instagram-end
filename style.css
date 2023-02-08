@@ -103,25 +103,12 @@ opacity: 0;
 
 }
 @keyframes heart {
-0% {
-height: 10vh;
-}
-25%{
-height: 31vh;
-}
-45%{
-height: 30vh;
-}
-60%{
-height: 32vh;
-}
-85%{
-height: 33vh;
-}
-100%{
-height: 30vh;
-opacity: 0;
-}
+0% {height: 10vh;}
+25%{height: 31vh;}
+45%{height: 30vh;}
+60%{height: 35vh;}
+85%{height: 38vh;}
+100%{height: 30vh;opacity: 0;}
 }
 main{
 	border-top: 1px solid #FF1A1A1A;

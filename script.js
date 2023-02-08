@@ -20,7 +20,7 @@ svg4.addEventListener("click", function () {
 function heartchange() {
 	let Image = document.getElementById('heart');
 	let img = document.getElementById('red');
-	img.style.animation = "heart 1s ease forwards";
+	img.style.animation = "heart 0.8s ease forwards";
 	img.style.opacity = '1';
 	if (Image.src.match("heart")) {
 		Image.src = "./images/redheart.png";
@@ -37,7 +37,7 @@ function heartchange1() {
 
 	let Image1 = document.getElementById('heart1');
 	let img = document.getElementById('red1');
-	img.style.animation = "heart 1s ease forwards";
+	img.style.animation = "heart 0.8s ease forwards";
 	img.style.opacity = '1';
 	if (Image1.src.match("heart")) {
 		Image1.src = "./images/redheart.png";
@@ -53,7 +53,7 @@ function likesnumber1() {
 function heartchange2() {
 	let Image2 = document.getElementById('heart2');
 	let img = document.getElementById("red2");
-	img.style.animation = "heart 1.5s ease forwards";
+	img.style.animation = "heart 0.8s ease forwards";
 	img.style.opacity = '1';
 	if (Image2.src.match("heart")) {
 		Image2.src = "./images/redheart.png";
